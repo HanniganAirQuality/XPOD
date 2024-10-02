@@ -28,9 +28,10 @@ To utilize the xpod_V3.1.2 firmware, you need to:
 
 # Update Tracker
 Thanks to Izzy for this suggestion! Here we will be tracking each version of the firmware.
-| Version       | "Named" Ver.   | Pilot         | Date               | Description & Purpose                  |
-| ------------- | -------------- | ------------- | -------------      | -------------------------------------- |
-| V3.1.2        | Initial Upload | Percy         | July 10, 2024      | Moving documents to central git	       |
+| Version       | "Named" Ver.   | Pilot         | Date               | Description & Purpose                		|
+| ------------- | -------------- | ------------- | -------------      | ----------------------------------------------- |
+| V3.1.2        | Initial Upload | Percy         | July 10, 2024      | Moving documents to central git	     		|
+| V3.2.0        | UTC Pilot      | Percy         | October 02, 2024   | Fulfills feature request for UTC timestamps	|
 
 
 
