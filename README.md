@@ -26,6 +26,9 @@ To utilize the xpod_V3.1.2 firmware, you need to:
 	ads_module.h
 	ads_module.cpp
 
+# Data Analysis Notes
+The XPOD V3.1.2 Firmware is currently the only one which has associated headers - please see the xlsx file in the V3.1.2 folder
+
 # Update Tracker
 Thanks to Izzy for this suggestion! Here we will be tracking each version of the firmware.
 | Version       | "Named" Ver.   | Pilot         | Date               | Description & Purpose                		|
