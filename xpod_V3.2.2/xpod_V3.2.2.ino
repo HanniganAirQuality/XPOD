@@ -252,6 +252,7 @@ void loop()
     
     #if PMS_ENABLED
       Serial.print(pms_module.read4print());
+      Serial.print(",");
     #endif
       
     #if MET_ENABLED
