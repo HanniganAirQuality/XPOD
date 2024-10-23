@@ -2,7 +2,7 @@
 The XPOD is a low-cost air quality monitor that is meant for researchers. It's less user-friendly than the YPOD.
 
 # Using this Firmware
-I personally recommend V3.2.3 if you're holding off on using 4.0.0 until you have a chance to re-calibrate with the fixed Plantower firmware. If you feel okay re-calibrating, I recommend _SLOWLY_ rolling out V4.0.0 for Beta testing.
+I personally recommend V3.2.3 if you're holding off on using 4.0.0 until you have a chance to re-calibrate with the fixed Plantower firmware. Please hold off on using V4.0.0, as of 10/23, I caught some issues when rolling out V4.0.0 for Beta testing.
 
 To utilize the V3.2 firmware, you need to:
 1. Move all un-zipped libraries into your your Documents/Arduino/libraries folder on your computer
