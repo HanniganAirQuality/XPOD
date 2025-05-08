@@ -2,7 +2,7 @@
 The XPOD is a low-cost air quality monitor that is meant for researchers. It's less user-friendly than the YPOD.
 
 # Using this Firmware
-** I personally recommend V3.2.3 **
+_**I personally recommend V3.2.3**_
 
 To utilize the V3.2 firmware, you need to:
 1. Move all un-zipped libraries into your your Documents/Arduino/libraries folder on your computer
