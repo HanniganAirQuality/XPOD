@@ -22,4 +22,4 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V3.2.3   	| PCB LED Repair | Percy         | October 18, 2024   | Fixes LEDs on PCB and updates .h file	|
 | V4.0.0   	| Plantower Repair | Percy         | IN PROGRESS   |   	|
 
-*V4.0.0 is the first firmware version which addresses the plantower issue
+*DO NOT USE V4.0.0
