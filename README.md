@@ -23,6 +23,5 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V4.0.0   	| Rebuild  | Percy         | July 28, 2025   | Just starting over tbh	|
 | V4.1.0   	| PMS5003 Update  | Percy         | July 31, 2025   | Made it possible to timeout	|
 
-<<<<<<< HEAD
+
 *V4.1.0 is the first firmware version which addresses the plantower issue
-=======
