@@ -2,7 +2,7 @@
 The XPOD is a low-cost air quality monitor that is meant for researchers. It's less user-friendly than the YPOD.
 
 # Using this Firmware
-** I personally recommend V3.2.3 **
+_**I personally recommend V3.2.3**_
 
 To utilize the V3.2 firmware, you need to:
 1. Move all un-zipped libraries into your your Documents/Arduino/libraries folder on your computer
@@ -23,4 +23,6 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V4.0.0   	| Rebuild  | Percy         | July 28, 2025   | Just starting over tbh	|
 | V4.1.0   	| PMS5003 Update  | Percy         | July 31, 2025   | Made it possible to timeout	|
 
+<<<<<<< HEAD
 *V4.1.0 is the first firmware version which addresses the plantower issue
+=======
