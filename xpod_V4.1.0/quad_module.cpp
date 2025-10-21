@@ -54,42 +54,42 @@ QUAD_Data QUAD_Module::return_updated()
   alpha_one.convertAndRead(MCP342x::channel1, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A1_C1 = value_smallguy;
+  dataset.QS1_C1 = value_smallguy;
 
   alpha_one.convertAndRead(MCP342x::channel2, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A1_C2 = value_smallguy;
+  dataset.QS1_C2 = value_smallguy;
 
   alpha_one.convertAndRead(MCP342x::channel3, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A1_C3 = value_smallguy;
+  dataset.QS2_C1 = value_smallguy;
 
   alpha_one.convertAndRead(MCP342x::channel4, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A1_C4 = value_smallguy;
+  dataset.QS2_C2 = value_smallguy;
 
   alpha_two.convertAndRead(MCP342x::channel1, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A2_C1 = value_smallguy;
+  dataset.QS3_C1 = value_smallguy;
 
   alpha_two.convertAndRead(MCP342x::channel2, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A2_C2 = value_smallguy;
+  dataset.QS3_C2 = value_smallguy;
 
   alpha_two.convertAndRead(MCP342x::channel3, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A2_C3 = value_smallguy;
+  dataset.QS4_C1 = value_smallguy;
 
   alpha_two.convertAndRead(MCP342x::channel4, MCP342x::oneShot, MCP342x::resolution16, 
                           MCP342x::gain1, 1000000, value, status);
   value_smallguy = value;
-  dataset.A2_C4 = value_smallguy;
+  dataset.QS4_C2 = value_smallguy;
 
   return dataset;
 }

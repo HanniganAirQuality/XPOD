@@ -6,8 +6,9 @@
  * @brief   XPOD Code Rewrite
  * 
  * @author  Percy Smith
- * @date 	  July 31, 2025 
- * @log     Completely re-did PM code to timeout when no response from plantower
+ * @date 	  August 8, 2025 
+ * @log     Completely re-did PM code to timeout when no response from plantower 
+ *          Did initial visualization analysis to confirm consistent behavior (looks correct)
  ******************************************************************************/
 #include "xpod_node.h"
 
@@ -297,21 +298,21 @@ void loop() {
         #endif //BME_ENABLED
 
         #if QUAD_ENABLED
-          file.print(quadstat_data.A1_C1);
+          file.print(quadstat_data.QS1_C1);
           file.print(F(","));
-          file.print(quadstat_data.A1_C2);
+          file.print(quadstat_data.QS1_C2);
           file.print(F(","));
-          file.print(quadstat_data.A1_C3);
+          file.print(quadstat_data.QS2_C1);
           file.print(F(","));
-          file.print(quadstat_data.A1_C4);
+          file.print(quadstat_data.QS2_C2);
           file.print(F(","));
-          file.print(quadstat_data.A2_C1);
+          file.print(quadstat_data.QS3_C1);
           file.print(F(","));
-          file.print(quadstat_data.A2_C2);
+          file.print(quadstat_data.QS3_C2);
           file.print(F(","));
-          file.print(quadstat_data.A2_C3);
+          file.print(quadstat_data.QS4_C1);
           file.print(F(","));
-          file.print(quadstat_data.A2_C4);
+          file.print(quadstat_data.QS4_C2);
           file.print(F(","));
           #else
             file.print(F(",,,,,,,,"));
@@ -423,21 +424,21 @@ void loop() {
       Serial.print(F(","));
     #endif //BME_ENABLED
     #if QUAD_ENABLED
-      Serial.print(quadstat_data.A1_C1);
+      Serial.print(quadstat_data.QS1_C1);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A1_C2);
+      Serial.print(quadstat_data.QS1_C2);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A1_C3);
+      Serial.print(quadstat_data.QS2_C1);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A1_C4);
+      Serial.print(quadstat_data.QS2_C2);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A2_C1);
+      Serial.print(quadstat_data.QS3_C1);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A2_C2);
+      Serial.print(quadstat_data.QS3_C2);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A2_C3);
+      Serial.print(quadstat_data.QS4_C1);
       Serial.print(F(","));
-      Serial.print(quadstat_data.A2_C4);
+      Serial.print(quadstat_data.QS4_C2);
       Serial.print(F(","));
     #endif //QUAD_ENABLED
     #if PMS_ENABLED

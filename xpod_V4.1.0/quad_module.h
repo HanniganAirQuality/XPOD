@@ -19,14 +19,14 @@
 /****************** STRUCTS, OBJECTS ********************/
 /*! Quad data structure (ALL DATA) as respective datatypes */
 struct QUAD_Data {
-  int16_t A1_C1;
-  int16_t A1_C2;
-  int16_t A1_C3;
-  int16_t A1_C4;
-  int16_t A2_C1;
-  int16_t A2_C2;
-  int16_t A2_C3;
-  int16_t A2_C4;
+  int16_t QS1_C1;
+  int16_t QS1_C2;
+  int16_t QS2_C1;
+  int16_t QS2_C2;
+  int16_t QS3_C1;
+  int16_t QS3_C2;
+  int16_t QS4_C1;
+  int16_t QS4_C2;
 };
 
 /****************** CLASSES ********************/
