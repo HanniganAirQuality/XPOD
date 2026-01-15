@@ -22,6 +22,6 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V3.2.3   	| PCB LED Repair | Percy         | October 18, 2024   | Fixes LEDs on PCB and updates .h file	|
 | V4.0.0   	| Rebuild  | Percy         | July 28, 2025   | Just starting over - fixes all but PM signal|
 | V4.1.0   	| PMS5003 Update  | Percy         | July 31, 2025   | Timeout option on PT if no PM signal	|
-
+| V5.0.0   	| Crosstalk!!!  | Percy & Julia | January 15, 2026   | Relays sensor data from MiniPOD (UNO) --> Boron404x for Cell Comms!	|
 
 *V4.1.0 is the first firmware version which addresses the plantower issue
