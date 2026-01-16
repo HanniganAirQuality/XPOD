@@ -2,14 +2,14 @@
  * @project Hannigan Lab's Next Gen. Air Quality Pods
  *
  * @file    xpod_V5.1.0.ino
- * @version Percy's 4.2.0
+ * @version Percy's 5.1.0
  * @brief   XPOD Code Rewrite
  * 
  * @author  Percy Smith
- * @date 	  January 13, 2026
+ * @date 	  January 16, 2026
  * @log     Updated to cross-talk with UNO & BORON404x
- * 
- * @issues  Problems when hardware failing to connect to UNO (& potentially to B404?)
+ *
+ * @req     Feature request: XPOD "health" tracking with boolean or case variable
  ******************************************************************************/
 #include "xpod_node.h"
 
