@@ -23,5 +23,6 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V4.0.0   	| Rebuild  | Percy         | July 28, 2025   | Just starting over - fixes all but PM signal|
 | V4.1.0   	| PMS5003 Update  | Percy         | July 31, 2025   | Timeout option on PT if no PM signal	|
 | V5.0.0   	| Crosstalk!!!  | Percy & Julia | January 15, 2026   | Relays sensor data from MiniPOD (UNO) --> Boron404x for Cell Comms!	|
+| V5.1.0   	| Crosstalk Validation  | Percy & Julia | January 16, 2026   | Added character 'A' as indicator of MiniPOD origin |
 
 *V4.1.0 is the first firmware version which addresses the plantower issue
