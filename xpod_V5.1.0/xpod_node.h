@@ -34,6 +34,7 @@ const uint8_t UTC_CONV = 6; //for MST choose 6, MDT choose 7
   #define INCLUDE_PARTICLES   0
 
 #define CROSSTALK_ON          1 //Boron & Mini(UNO)
+#define DEBUG_CROSSTALK       0
 
 #define THE_DAWG              1 //say hi to mr watchdog - he is needed for CO2 - this is a dev feature.
 
@@ -42,7 +43,7 @@ const uint8_t UTC_CONV = 6; //for MST choose 6, MDT choose 7
 #define CO2_I2C_ADDR          0x31
 #define ALPHA_ONE_ADDR        0x69
 #define ALPHA_TWO_ADDR        0x6E
-#define CMD_MINIDATA_START    0xAA
+// #define CMD_MINIDATA_START    0xAA
 
 /****************** PIN DEFINITIONS ********************/
 //Important Pins

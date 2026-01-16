@@ -505,8 +505,6 @@ void loop() {
       if (boronRequest == boronGoal) {
         Serial.print(F("\nSending request to Uno"));
         unoData = ",,";
-        // bool unoResponded = false;
-        // Serial3.flush();
         unsigned long start = millis(); // Starting timer for response timeout
         Serial3.print(F("Mega requesting data from Uno\n"));
         Serial3.flush();
@@ -540,11 +538,12 @@ void loop() {
         int16_t CO_main = ads_data.Worker;
         int16_t CO_Aux = ads_data.Auxiliary;
         char buffer[256];
-        snprintf(buffer, sizeof(buffer), "%u,%u,%u,%d,%d,%d,%d,%d,%d,%d,%d,%s,%s,%u,%d,%d,%s", h, m, s, QS1_C1, QS1_C2, QS2_C1, QS2_C2, QS3_C1, QS3_C2, QS4_C1, QS4_C2, SCALED_RH, SCALED_T, CO2, CO_main, CO_Aux, unoData.c_str());
-        Serial2.println(buffer);
+        snprintf(buffer, sizeof(buffer), "%u,%u,%u,%d,%d,%d,%d,%d,%d,%d,%d,%s,%s,%u,%d,%d,%s\n", h, m, s, QS1_C1, QS1_C2, QS2_C1, QS2_C2, QS3_C1, QS3_C2, QS4_C1, QS4_C2, SCALED_RH, SCALED_T, CO2, CO_main, CO_Aux, unoData.c_str());
+        Serial2.print(buffer);
+        #if DEBUG_CROSSTALK
           Serial.print(F("\n"));
-        Serial.print(buffer);
-        // Serial.print(F("SUCCESS"));
+          Serial.print(buffer);
+        #endif //DEBUG_CROSSTALK
       } //if (boronRequest == boronGoal) 
     } //if (Serial2.available() != 0)
   #endif //CROSSTALK_ON
