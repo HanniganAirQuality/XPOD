@@ -22,8 +22,8 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V3.2.3   	    | PCB LED Repair | Percy         | Oct 18, 2024   | Fixes LEDs on PCB and updates .h file	|
 | V4.0.0   	    | Rebuild        | Percy         | Jul 28, 2025   | Just starting over - fixes all but PM signal|
 | V4.1.0   	    | PMS5003 Update | Percy         | Jul 31, 2025   | Timeout option on PT if no PM signal	|
-| V5.0.0   	    | Crosstalk!!!   | Percy & Julia | Jan 15, 2026   | Relays sensor data from MiniPOD (UNO) --> Boron404x for Cell Comms!	|
-| V5.1.0       	| Crosstalk Validation  | Percy & Julia | Jan 16, 2026   | Added character 'A' as indicator of MiniPOD origin |
+| V5.x  	      | Crosstalk B404 | Julia         | Mar 26, 2026   | Please see: [Wireless XPOD](https://github.com/HanniganAirQuality/XPOD-Wireless-Updates/tree/main)|
+
 
 *V4.1.0 is the first firmware version which addresses the plantower issue
 
