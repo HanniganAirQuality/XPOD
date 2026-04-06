@@ -22,6 +22,7 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V3.2.3   	    | PCB LED Repair | Percy         | Oct 18, 2024   | Fixes LEDs on PCB and updates .h file	|
 | V4.0.0   	    | Rebuild        | Percy         | Jul 28, 2025   | Just starting over - fixes all but PM signal|
 | V4.1.0   	    | PMS5003 Update | Percy         | Jul 31, 2025   | Timeout option on PT if no PM signal	|
+| V4.1.1   	    | + V_in signal  | Percy         | Apr 06, 2026   | Adds back V_in for V4PCB's (Not V6M - no V_in channel)	|
 | V5.x  	      | Crosstalk B404 | Julia         | Mar 26, 2026   | Only use if [Wireless XPOD](https://github.com/HanniganAirQuality/XPOD-Wireless-Updates/tree/main) |
 
 
