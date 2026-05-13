@@ -1892,6 +1892,10 @@ XPOD_V4_0_0:
   date: 2025-07-28
   changelog: Just starting over, fixes all previous issues except for PMS5003 noise...
     Header changes - accidental removal of Voltage_in & MET outputs moved MQ to ADS sensors, addition of gas resistance from BME, added standard PMS5003 reading
+  SD_fileinfo: 
+    DefaultFileConfig: ConfigB
+    FileName: XPODID_YYYY_mm_dd
+    FileType: .CSV
   SD:
     DateTime:
       unit: timestamp
@@ -2108,7 +2112,11 @@ XPOD_V4_0_0:
 XPOD_V4_1_0:
   date: 2025-07-31
   changelog: Timeout for PMS5003
-    No changes from 4.0.0 header to my knowledge  
+    No changes from 4.0.0 header to my knowledge
+  SD_fileinfo: 
+    DefaultFileConfig: ConfigB
+    FileName: XPODID_YYYY_mm_dd
+    FileType: .CSV
   SD:
     DateTime:
       unit: timestamp
@@ -2325,6 +2333,10 @@ XPOD_V4_1_0:
 XPOD_V4_1_1:
   date: 2025-07-31
   changelog: Re-adds analog V_in (accidentally removed from V4 rebuild) 
+  SD_fileinfo: 
+    DefaultFileConfig: ConfigB
+    FileName: XPODID_YYYY_mm_dd
+    FileType: .CSV
   SD:
     DateTime:
       unit: timestamp
