@@ -13,17 +13,18 @@ Please see the XPOD_HeaderLog.yaml for associated headers for each version! Not 
 
 # Update Tracker
 Thanks to Izzy for this suggestion! Here we will be tracking each version of the firmware.
-| Version       | "Named" Ver.   | Pilot         | Date               | Description & Purpose                		|
-| ------------- | -------------- | ------------- | -------------      | ----------------------------------------------- |
-| V3.1.2      	| Initial Upload | Percy         | Jul 10, 2024      | Moving documents to central git		     	|
-| V3.2.0        | UTC Pilot      | Percy         | Oct 02, 2024   | Fulfills feature request for UTC timestamps	|
-| V3.2.1        | EXT LED Mod	   | Percy         | Oct 03, 2024   | External LED support				|
-| V3.2.2        | Landscaping 	 | Percy         | Oct 04, 2024   | Trims unused FW - Motor control, GPS, OPC	|	
-| V3.2.3   	    | PCB LED Repair | Percy         | Oct 18, 2024   | Fixes LEDs on PCB and updates .h file	|
-| V4.0.0   	    | Rebuild        | Percy         | Jul 28, 2025   | Just starting over - fixes all but PM signal|
-| V4.1.0   	    | PMS5003 Update | Percy         | Jul 31, 2025   | Timeout option on PT if no PM signal	|
+| Version       | "Named" Ver.   | Pilot         | Date           | Description & Purpose                		    |
+| ------------- | -------------- | ------------- | -------------  | ----------------------------------------------- |
+| V3.1.2      	| Initial Upload | Percy         | Jul 10, 2024   | Moving documents to central git		     	    |
+| V3.2.0        | UTC Pilot      | Percy         | Oct 02, 2024   | Fulfills feature request for UTC timestamps	    |
+| V3.2.1        | EXT LED Mod	 | Percy         | Oct 03, 2024   | External LED support				            |
+| V3.2.2        | Landscaping 	 | Percy         | Oct 04, 2024   | Trims unused FW - Motor control, GPS, OPC	    |	
+| V3.2.3   	    | PCB LED Repair | Percy         | Oct 18, 2024   | Fixes LEDs on PCB and updates .h file	        |
+| V3.4.0   	    | SD Config A    | Percy         | May 13, 2026   | Adds CONFIGA for .txt format with 3.2.3 repairs |
+| V4.0.0   	    | Rebuild        | Percy         | Jul 28, 2025   | Just starting over - fixes all but PM signal    |
+| V4.1.0   	    | PMS5003 Update | Percy         | Jul 31, 2025   | Timeout option on PT if no PM signal	        |
 | V4.1.1   	    | + V_in signal  | Percy         | Apr 06, 2026   | Adds back V_in for V4PCB's (Not V6M - no V_in channel)	|
-| V5.x  	      | Crosstalk B404 | Julia         | Mar 26, 2026   | Only use if [Wireless XPOD](https://github.com/HanniganAirQuality/XPOD-Wireless-Updates/tree/main) |
+| V5.x  	    | Crosstalk B404 | Julia         | Mar 26, 2026   | Only use if [Wireless XPOD](https://github.com/HanniganAirQuality/XPOD-Wireless-Updates/tree/main) |
 
 
 *V4.1.0 is the first firmware version which addresses the plantower issue
