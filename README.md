@@ -9,7 +9,7 @@ To utilize the V3.2 firmware, you need to:
 2. Open the .ino file and wait for all associated .h & .cpp files open
 
 # Data Analysis Notes
-The XPOD V3.1.2 Firmware is currently the only one which has associated headers - please see the xlsx file in the V3.1.2 folder
+Please see the XPOD_HeaderLog.yaml for associated headers for each version! Not included in this log is the 5W headers. That is to come, and it will be on the XPOD Wireless HeaderLog just so that it doesn't confuse anyone!
 
 # Update Tracker
 Thanks to Izzy for this suggestion! Here we will be tracking each version of the firmware.
