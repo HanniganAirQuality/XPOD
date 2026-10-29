@@ -25,6 +25,11 @@ Thanks to Izzy for this suggestion! Here we will be tracking each version of the
 | V4.1.0   	    | PMS5003 Update | Percy         | Jul 31, 2025   | Timeout option on PT if no PM signal	        |
 | V4.1.1   	    | + V_in signal  | Percy         | Apr 06, 2026   | Adds back V_in for V4PCB's (Not V6M - no V_in channel)	|
 | V4.2.0  	    | ADS Repair     | Percy         | May 22, 2026   | Repairs issue with ads ADDR & CH, corrects conv.	|
+| V4.3.0  	    | MET Add-in     | Percy         | Oct 29, 2026   | Adds back in the MET station for V6M3 with mods.	|
+
+## Alternative Versions
+| Version       | "Named" Ver.   | Pilot         | Date           | Description & Purpose                		    |
+| ------------- | -------------- | ------------- | -------------  | ----------------------------------------------- |
 | V5.x  	    | Crosstalk B404 | Julia         | Mar 26, 2026   | Only use if [Wireless XPOD](https://github.com/HanniganAirQuality/XPOD-Wireless-Updates/tree/main) |
 
 

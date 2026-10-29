@@ -13,7 +13,7 @@
 #include <stdint.h>
 
 /****************** POD ID & CONST ********************/
-const char XPODID[] = "SPODD2";
+const char XPODID[] = "APOD5";
 const uint8_t UTC_CONV = 6; //for MST choose 6, MDT choose 7 
 
 /****************** CONFIG/SETTING ********************/
@@ -31,7 +31,7 @@ const uint8_t UTC_CONV = 6; //for MST choose 6, MDT choose 7
 #define BME_ENABLED           1 //I2C (ADR: 0x76)
 #define QUAD_ENABLED          1 //I2C (ADR: 0x6E, 0x69)
 #define PMS_ENABLED           1 //UART (TX/RX: Serial1)
-  #define INCLUDE_STANDARD    1
+  #define INCLUDE_STANDARD    1 //This is the CF=1 reading (use for indoor environments)
   #define INCLUDE_PARTICLES   1
 
 #define THE_DAWG              1 //say hi to mr watchdog - he is needed for CO2 - this is a dev feature.
